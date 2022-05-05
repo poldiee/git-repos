@@ -7,19 +7,18 @@
   <title>GitRepos</title>
 </head>
 <body>
-  <div class="navbar-dark">
-    <div class="navbar-brand">
-      <a class="navbar-item">
-        LOGO HERE!
-      </a>
-    </div>
-  </div>
+  <!-- header -->
+  <app-header></app-header>
 
-  <footer class="footer">
-    <div class="container content has-text-centered">
-      <p>Made by </p>
-    </div>
-  </footer>
+  <app-contact></app-contact>
+
+  <app-home></app-home>
+
+  <!-- routes get injected here -->
+  <router-outlet></router-outlet>
+  
+  <!-- footer -->
+  <app-footer></app-footer>
   
 </body>
 </html>
